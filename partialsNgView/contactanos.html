@@ -1,0 +1,51 @@
+<div class="container" id="cpagos">
+    <!--- Tercera Fila----->
+    <div class="col-md-1">
+        <div class="col-md-1">
+            <figure>
+                <img src="img/bannerFormaPago.jpg" id="pago">
+            </figure>
+        </div>
+        <div class="col-md-1 col-md-offset-1">
+            <figure>
+                <img src="img/banner%20envio%20gratis_02.jpg" id="preguntas">
+            </figure>
+        </div>
+    </div>
+    <div class="col-md-9 col-md-offset-2">
+        <h6><a href="index.html">Inicio</a> > Contactanos</h6>
+        <h5>SERVICIO AL CLIENTE -CONTACTANOS</h5>
+        <h6>Para cualquier consulta referente a un pedido o un producto por favor rellene el siguiente formulario y contactaremos contigo a la mayor brevedad..</h6>
+        <fieldset>
+            <h3>Enviar un mensaje</h3>
+            <p>
+                <label class="tema">Seleccione un Tema</label>
+                <select name="opciones">
+                    <option value="0" selected>--Seleccionar--</option>
+                    <option value="1">Atencion a Clientes</option>
+                    <option value="2">Departamento de Ventas</option>
+                    <option value="3">Departamento Comercial</option>
+                </select>
+            </p>
+            <br>
+            <p>
+                <label class="correo">Correo Electronico</label>
+                <input type="text" id="email" name="form" value>
+            </p>
+            <br>
+            <p>
+                <label id="cargarArchivo">Fichero</label>
+                <input type="hidden" name="MAX_FILE_SIZE" value="2000000">
+                <input type="file" name="fileUpload" id="fileUpload">
+            </p>
+            <br>
+            <p>
+                <label class="mensaje">Mensaje</label>
+                <textarea></textarea>
+            </p>
+            <p>
+                <input type="button" name=sumbit value="Enviar Mensaje" class="btnEnviar">
+            </p>
+        </fieldset>
+    </div>
+</div>
